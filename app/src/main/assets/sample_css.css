@@ -1,0 +1,18 @@
+.sampleTitle{
+    margin: auto;
+    text-align:center;
+}
+
+.sampleButton {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 100px;
+    border: 0;
+    border-radius: 5px;
+    background: #4676D7;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+}
