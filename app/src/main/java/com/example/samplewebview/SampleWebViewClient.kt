@@ -13,7 +13,7 @@ class SampleWebViewClient(private val activity: Activity) : WebViewClient() {
     override fun shouldOverrideUrlLoading(view: WebView, request: WebResourceRequest): Boolean {
         val url = request.url.toString()
 
-        if (url == "event://start_camera/") {
+        if (url == "event://start_scheme/") {
             Log.d("MyApp", "スキーム発火");
             showDialog(activity)
             return true
